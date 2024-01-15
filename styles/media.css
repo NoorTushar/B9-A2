@@ -26,7 +26,46 @@
   /* .m-bottom {
     margin-bottom: 12px;
   } */
-
+  /* Header Start */
+  header {
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+  }
+  header nav ul li {
+  }
+  header nav ul li a {
+    color: #424247;
+    font-size: 18px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  header nav ul li a:hover {
+    color: var(--orange);
+  }
+  header nav ul li a:visited {
+    color: #424247;
+  }
+  .toggle-button {
+    display: block;
+    font-size: 24px;
+  }
+  .nav-item {
+    display: none;
+  }
+  /* Header End */
   /* Banner Section Start */
   .banner-section {
     height: auto;

@@ -1,3 +1,78 @@
+/* Banner Section Start */
+.banner-section {
+  height: 500px;
+  background: linear-gradient(#131318, #13131800), url(../Images/Rectangle1.jpg);
+  border-radius: 14.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-heading {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-p {
+  max-width: 676px;
+  text-align: center;
+  color: #fff;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.banner-form form {
+  width: 800px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.banner-form .banner-input {
+  width: 24%;
+  position: relative;
+}
+.banner-form .banner-input input,
+select {
+  /* width: 174px; */
+  max-width: 175px;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+.banner-form .banner-input input::placeholder,
+select::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+}
+.banner-input input[type="submit"] {
+  background-color: #ff5400;
+  color: #fff;
+  cursor: pointer;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  color: #fff;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+/* Banner Section End */
+
 /* popular-tour start */
 
 .popular-tour-container {

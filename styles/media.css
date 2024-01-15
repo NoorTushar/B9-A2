@@ -27,6 +27,76 @@
     margin-bottom: 12px;
   } */
 
+  /* Banner Section Start */
+  .banner-section {
+    height: auto;
+    padding: 30px 18px;
+  }
+
+  .banner-heading {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .banner-p {
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+  .banner-form form {
+    width: auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .banner-form .banner-input {
+    width: 100%;
+    position: relative;
+  }
+  .banner-form .banner-input input,
+  select {
+    /* width: 174px; */
+    max-width: auto;
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+  }
+  .banner-form .banner-input input::placeholder,
+  select::placeholder {
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+  }
+  .banner-input input[type="submit"] {
+    background-color: #ff5400;
+    color: #fff;
+    cursor: pointer;
+  }
+  .fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    color: #fff;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+  /* Banner Section End */
+
   /* Popular Section Start */
   .popular-tour-container {
     flex-direction: column;

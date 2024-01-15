@@ -129,6 +129,42 @@
   /* Why us End */
 
   /* Newsletter Section Start */
+  .newsletter-container {
+    flex-direction: column;
+    gap: 16px;
+  }
 
+  .newsletter-form-box {
+    width: 100%;
+    padding: 24px;
+    height: auto;
+  }
+
+  .newsletter-form hr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .newsletter-image-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .save-orange-alert {
+    right: 10px;
+    bottom: 40px;
+
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+  }
+  .save-orange-alert p {
+    font-size: 16px;
+  }
+  .save-orange-alert h3 {
+    font-size: 21px;
+  }
   /* Newsletter Section End */
 }

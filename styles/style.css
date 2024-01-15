@@ -154,7 +154,7 @@
   padding: 40px;
   border-radius: 16px;
   border: 1px solid #ff5400;
-  /* min-height: 422px; */
+  height: 422px;
 }
 .newsletter-form-box .card-header {
   margin: 0;
@@ -187,6 +187,8 @@
   cursor: pointer;
   border: 1px solid var(--orange);
   transition: 0.3s;
+  font-size: 20px;
+  font-weight: 800;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -199,6 +201,8 @@
 .newsletter-image-box {
   position: relative;
   width: 60%;
+  height: 422px;
+  overflow: hidden;
 }
 
 .save-orange-alert {

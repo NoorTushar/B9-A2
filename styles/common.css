@@ -8,7 +8,9 @@
   --grey: #5a5a5d;
   --orange: #ff5400;
 }
-
+.orange {
+  color: #ff5400;
+}
 * {
   margin: 0;
   padding: 0;

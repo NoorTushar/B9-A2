@@ -30,10 +30,10 @@
   header {
   }
   header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 20px 0;
+  }
+  header nav .logo {
+    width: auto;
   }
   header nav ul {
     display: flex;
@@ -55,13 +55,12 @@
   header nav ul li a:hover {
     color: var(--orange);
   }
-  header nav ul li a:visited {
-    color: #424247;
-  }
+
   .toggle-button {
     display: block;
     font-size: 24px;
   }
+
   .nav-item {
     display: none;
   }
@@ -141,6 +140,9 @@
     padding: 14px;
     font-size: 14px;
   }
+  .custom-li {
+    margin-left: 10px;
+  }
   .tour-image {
     width: 100%;
     max-width: auto;
@@ -150,7 +152,7 @@
   /* Destinations Section Start */
   .destination-gallery-container {
     grid-template-columns: repeat(1fr);
-    grid-template-rows: repeat(1fr);
+    /* grid-template-rows: repeat(1fr); */
     gap: 16px;
     margin-top: 16px;
   }
@@ -277,6 +279,9 @@
   .footer-container {
     padding: 0 40px;
     max-width: auto;
+  }
+  .footer-container .logo {
+    flex-direction: column;
   }
   .footer-upper-p {
     margin-bottom: 20px;

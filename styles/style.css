@@ -24,8 +24,12 @@
   margin-top: 24px;
   margin-bottom: 48px;
 }
+.banner-form {
+  width: 100%;
+}
 .banner-form form {
-  width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
 

@@ -43,21 +43,13 @@
     margin-top: 16px;
     margin-bottom: 32px;
   }
+  .banner-form {
+    width: 100%;
+  }
   .banner-form form {
     width: auto;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.3);
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 16px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
   }
   .banner-form .banner-input {
     width: 100%;
@@ -66,7 +58,7 @@
   .banner-form .banner-input input,
   select {
     /* width: 174px; */
-    max-width: auto;
+    max-width: 100%;
     width: 100%;
     padding: 16px;
     border-radius: 8px;

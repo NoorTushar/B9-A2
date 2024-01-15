@@ -1,0 +1,28 @@
+.popular-tour-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.custom-li {
+  line-height: 26px;
+}
+.custom-li::before {
+  content: "•";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.tour-details {
+  width: 50%;
+  max-width: 577px;
+}
+.tour-image {
+  max-width: 540px;
+  width: 50%;
+}
+.popular-button button {
+  margin-top: 28px;
+}

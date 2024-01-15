@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+  .container {
+    width: 89.33%;
+  }
+  .m-bottom-16 {
+    margin-bottom: 14px;
+  }
+  section {
+    margin-top: 24px;
+  }
+  .common-header {
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+  }
+  .common-p {
+    font-size: 0.875rem;
+  }
+
+  .primary-button {
+    font-size: 1rem;
+    padding: 13px 28px;
+  }
+  .popular-button button {
+    margin-top: 16px;
+  }
+  /* .m-bottom {
+    margin-bottom: 12px;
+  } */
+
+  /* Popular Section Start */
+  .popular-tour-container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .tour-details {
+    width: 100%;
+    max-width: auto;
+  }
+  .tour-ul {
+    padding: 14px;
+    font-size: 14px;
+  }
+  .tour-image {
+    width: 100%;
+    max-width: auto;
+  }
+  /* Popular Section End */
+}

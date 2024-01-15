@@ -317,6 +317,11 @@ select::placeholder {
   width: 60%;
   height: 422px;
   overflow: hidden;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 
 .save-orange-alert {
@@ -350,6 +355,7 @@ select::placeholder {
 
 /* Footer Start */
 footer {
+  margin-top: 100px;
   background-color: rgba(19, 19, 24, 0.05);
   text-align: center;
   padding: 110px 0;

@@ -45,7 +45,23 @@
   gap: 24px;
   margin-top: 48px;
 }
+.destination-item {
+  position: relative;
+}
+.destination-name {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
 /* .destination-item img {
   width: 100%;
   height: 100%;

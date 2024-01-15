@@ -167,4 +167,33 @@
     font-size: 21px;
   }
   /* Newsletter Section End */
+
+  /* Footer Start */
+  footer {
+    padding: 33px 0;
+  }
+
+  .footer-container {
+    padding: 0 40px;
+    max-width: auto;
+  }
+  .footer-upper-p {
+    margin-bottom: 20px;
+  }
+
+  .social-icons-container ul {
+    gap: 40px;
+  }
+
+  footer hr {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .copyright a {
+    color: #ff5400;
+  }
+  .copyright a:visited {
+    color: #ff5400;
+  }
+  /* Footer End */
 }

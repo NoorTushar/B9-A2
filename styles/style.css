@@ -1,3 +1,5 @@
+/* popular-tour start */
+
 .popular-tour-container {
   display: flex;
   justify-content: space-between;
@@ -26,3 +28,55 @@
 .popular-button button {
   margin-top: 28px;
 }
+/* popular-tour end */
+
+/* Destinations Section Start */
+.destinations-section {
+}
+.destinations-section .section-details {
+  text-align: center;
+  max-width: 643px;
+  margin: 0 auto;
+}
+.destination-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 300px 286px 300px;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+/* .destination-item img {
+  width: 100%;
+  height: 100%;
+} */
+
+.destination-item-1 {
+  grid-column: 1 / span 6;
+  grid-row: 1;
+}
+.destination-item-2 {
+  grid-column: 7 / span 6;
+  grid-row: 1;
+}
+.destination-item-3 {
+  grid-column: 1 / span 4;
+  grid-row: 2;
+}
+.destination-item-4 {
+  grid-column: 5 / span 5;
+  grid-row: 2;
+}
+.destination-item-5 {
+  grid-column: 10 / span 3;
+  grid-row: 2;
+}
+.destination-item-6 {
+  grid-column: 1 / span 5;
+  grid-row: 3;
+}
+.destination-item-7 {
+  grid-column: 6 / span 7;
+  grid-row: 3;
+}
+/* Destinations Section End */

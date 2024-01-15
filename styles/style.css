@@ -114,6 +114,9 @@
   max-width: 573px;
   padding: 32px;
 }
+.card img {
+  width: auto;
+}
 .card-header {
   margin-top: 32px;
   margin-bottom: 16px;

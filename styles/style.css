@@ -276,6 +276,14 @@ select::placeholder {
 }
 /* Why us End */
 
+/* Testimonial Start */
+.testimonial-section .section-details {
+  text-align: center;
+  max-width: 643px;
+  margin: 0 auto;
+}
+/* Testimonial End */
+
 /* Newsletter Section Start */
 .newsletter-container {
   display: flex;

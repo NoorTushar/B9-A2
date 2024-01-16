@@ -152,7 +152,7 @@
   /* Destinations Section Start */
   .destination-gallery-container {
     grid-template-columns: repeat(1fr);
-    /* grid-template-rows: repeat(1fr); */
+    grid-template-rows: repeat(1fr, 1fr, 1fr);
     gap: 16px;
     margin-top: 16px;
   }

@@ -258,7 +258,8 @@
 
   /* Newsletter Section Start */
   .newsletter-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+
     gap: 16px;
   }
 
@@ -274,15 +275,15 @@
   }
 
   .newsletter-image-box {
-    position: relative;
+    /* position: relative;
     width: 100%;
     height: auto;
-    overflow: visible;
+    overflow: visible; */
   }
 
   .save-orange-alert {
     right: 10px;
-    bottom: 40px;
+    bottom: 33px;
 
     width: 214.023px;
     height: 79.268px;

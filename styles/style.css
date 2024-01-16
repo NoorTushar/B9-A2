@@ -365,17 +365,19 @@ select {
 
 /* Newsletter Section Start */
 .newsletter-container {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 0.43fr 0.57fr;
   align-items: center;
   gap: 24px;
 }
 
 .newsletter-form-box {
-  width: 38%;
-  padding: 40px;
+  width: 100%;
+  padding: 20px 30px;
   border-radius: 16px;
   border: 1px solid #ff5400;
-  height: 422px;
+  height: 100%;
 }
 .newsletter-form-box .card-header {
   margin: 0;
@@ -421,8 +423,8 @@ select {
 }
 .newsletter-image-box {
   position: relative;
-  width: 60%;
-  height: 422px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   border-radius: 16px;
   -webkit-border-radius: 16px;
@@ -430,7 +432,9 @@ select {
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
-
+.large-image {
+  height: 100%;
+}
 .save-orange-alert {
   position: absolute;
   right: 10px;

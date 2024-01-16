@@ -67,7 +67,7 @@ header nav ul li a:hover {
 
 .banner-heading {
   color: #fff;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 800;
 }
 .banner-p {
@@ -168,7 +168,6 @@ select {
 }
 .tour-image img {
   height: 100%;
-  object-fit: cover;
 }
 .popular-button button {
   margin-top: 14px;
@@ -349,7 +348,7 @@ select {
 }
 .t-name {
   font-size: 1.4rem;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .t-date {
   margin-bottom: 0;

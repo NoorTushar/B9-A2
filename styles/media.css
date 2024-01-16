@@ -117,7 +117,7 @@
   .fa-magnifying-glass {
     position: absolute;
     top: 50%;
-    left: 15%;
+    left: 28%;
     transform: translateY(-50%);
     color: #fff;
     -webkit-transform: translateY(-50%);
@@ -213,9 +213,9 @@
 
   /* Why us Start */
   .why-us-card-container {
-    margin-top: 16px;
+    margin-top: 24px;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
   }
 
   .card {

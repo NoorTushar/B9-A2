@@ -60,7 +60,10 @@ section {
   font-weight: 800;
   line-height: 60px; /* 150% */
 }
-
+.active {
+  color: #ff5400;
+  font-weight: 700;
+}
 .common-p {
   color: var(--grey);
   line-height: 26px; /* 162.5% */

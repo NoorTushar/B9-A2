@@ -306,12 +306,12 @@ select {
   text-align: center;
   margin-bottom: 40px;
 }
-.holiday-item {
+.deals-discounts-section .holiday-item {
   margin-top: 24px;
   background-image: url("../Images/holiday-background-1.jpeg");
   background-position: center;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -531,6 +531,9 @@ select {
   -o-border-radius: 16px;
 }
 .large-image {
+  height: 100%;
+}
+.large-image img {
   height: 100%;
 }
 .save-orange-alert {

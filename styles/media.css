@@ -231,6 +231,28 @@
   }
   /* Why us End */
 
+  /* Testimonials Start */
+  .testimonial-section {
+    margin-bottom: 60px;
+  }
+  .testimonial-section .section-details {
+    width: auto;
+  }
+  .testimonials-box-container {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .testimonial-item {
+    width: 100%;
+    padding: 30px;
+  }
+  .testimonial-item-2,
+  .testimonial-item-3 {
+    display: none;
+  }
+  /* Testimonials End */
+
   /* Newsletter Section Start */
   .newsletter-container {
     flex-direction: column;

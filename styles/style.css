@@ -109,7 +109,7 @@ select {
   font-size: 16px;
 }
 .banner-form .banner-input input::placeholder,
-select::placeholder {
+select {
   color: rgba(19, 19, 24, 0.5);
   font-size: 16px;
 }
@@ -281,6 +281,55 @@ select::placeholder {
   text-align: center;
   max-width: 643px;
   margin: 0 auto;
+}
+.testimonials-box-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+.testimonial-item {
+  width: 32%;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.testimonial-item > * {
+  margin-bottom: 16px;
+}
+.testimonial-img-box {
+}
+.testimonial-img-box img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.rating {
+}
+.rating i {
+  color: #ff5400;
+}
+.t-desc {
+}
+.t-name {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+.t-date {
+}
+.slider-buttons {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 /* Testimonial End */
 

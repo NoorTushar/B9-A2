@@ -8,6 +8,13 @@
   --grey: #5a5a5d;
   --orange: #ff5400;
 }
+
+.grey {
+  color: #5a5a5d;
+}
+.light-grey {
+  color: #b2b2b2;
+}
 .orange {
   color: #ff5400;
 }

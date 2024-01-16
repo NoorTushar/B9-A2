@@ -152,7 +152,6 @@
   /* Destinations Section Start */
   .destination-gallery-container {
     grid-template-columns: repeat(1fr);
-    grid-template-rows: repeat(1fr, 1fr, 1fr);
     gap: 16px;
     margin-top: 16px;
   }
@@ -178,6 +177,9 @@
     -o-border-radius: 16px;
     /* max-height: 176px; */
     /* object-fit: contain; */
+  }
+  .destination-name {
+    font-size: 20px;
   }
   .destination-item-1 {
     grid-column: 1 / span 12;
@@ -237,6 +239,7 @@
   }
   .testimonial-section .section-details {
     width: auto;
+    padding: 0px 10px;
   }
   .testimonials-box-container {
     margin-top: 40px;

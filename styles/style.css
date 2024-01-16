@@ -299,7 +299,75 @@ select {
   background: rgba(233, 68, 68, 0.05);
 }
 /* Why us End */
-
+/* Deals Discount Start */
+.deals-discounts-section {
+}
+.holiday-item {
+  background-image: url("../Images/holiday-background-1.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 60px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.holiday-item .holiday-details {
+  padding: 40px;
+  width: 60%;
+  max-width: 579px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+.holiday-item .holiday-details .holiday-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.holiday-item .holiday-details .holiday-icons .each-icon-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.holiday-item .holiday-details .holiday-icons .each-icon-box i {
+  font-size: 16px;
+  color: var(--orange);
+}
+.holiday-details .card-header {
+  margin-top: 20px;
+}
+.holiday-price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 14px 0;
+}
+.book-now-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  border: 1px solid #ff5400;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.book-now-button:hover {
+  background: #fff;
+  color: #ff5400;
+}
+/* Deals Discount End */
 /* Testimonial Start */
 .testimonial-section .section-details {
   text-align: center;

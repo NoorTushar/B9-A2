@@ -322,8 +322,8 @@ select {
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
-.holiday-item-2 {
-  justify-content: start;
+.deals-discounts-section .holiday-item-2 {
+  justify-content: flex-start;
   background-image: url("../Images/holiday-background-2.jpeg");
 }
 .holiday-item .holiday-details {

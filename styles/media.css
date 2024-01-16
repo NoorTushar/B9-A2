@@ -10,7 +10,7 @@
   }
   .common-header {
     font-size: 1.25rem;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
   .common-p {
     font-size: 0.875rem;
@@ -129,7 +129,7 @@
 
   /* Popular Section Start */
   .popular-tour-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 24px;
   }
   .tour-details {
@@ -137,7 +137,7 @@
     max-width: auto;
   }
   .tour-ul {
-    padding: 14px;
+    padding: 0px 14px;
     font-size: 14px;
   }
   .custom-li {

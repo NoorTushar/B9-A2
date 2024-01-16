@@ -131,6 +131,8 @@
   .popular-tour-container {
     grid-template-columns: 1fr;
     gap: 24px;
+    min-height: 550px;
+    max-height: 100%;
   }
   .tour-details {
     width: 100%;
@@ -358,6 +360,7 @@
   /* Footer Start */
   footer {
     padding: 33px 0;
+    margin-top: 40px;
   }
 
   .footer-container {

@@ -258,9 +258,9 @@ select {
   gap: 24px;
 }
 .card {
-  width: 48.8%;
+  width: 47.8%;
   max-width: 573px;
-  padding: 32px;
+  padding: 26px;
 }
 .card img {
   width: auto;

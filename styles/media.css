@@ -281,6 +281,7 @@
   }
   .simple-perfect-section .tour-image {
     max-width: 100%;
+    min-height: 230px;
   }
   #videobandarban {
     width: 100%;

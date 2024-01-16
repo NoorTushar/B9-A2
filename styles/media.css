@@ -293,6 +293,25 @@
     color: #ff5400;
   }
   /* Deals Discount End */
+  /* Simple-Perfect Start */
+  .simple-perfect-section .popular-tour-container {
+    grid-template-columns: 1fr;
+    max-height: 100%;
+  }
+  .simple-perfect-section .tour-image {
+    max-width: 100%;
+  }
+  #videobandarban {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+  /* Simple-Perfect End */
   /* Testimonials Start */
   .testimonial-section {
     margin-bottom: 60px;

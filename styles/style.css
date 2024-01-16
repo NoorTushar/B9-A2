@@ -302,7 +302,12 @@ select {
 /* Deals Discount Start */
 .deals-discounts-section {
 }
+.deals-discounts-section .section-details {
+  text-align: center;
+  margin-bottom: 40px;
+}
 .holiday-item {
+  margin-top: 24px;
   background-image: url("../Images/holiday-background-1.jpeg");
   background-position: center;
   background-size: cover;
@@ -316,6 +321,10 @@ select {
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
+}
+.holiday-item-2 {
+  justify-content: start;
+  background-image: url("../Images/holiday-background-2.jpeg");
 }
 .holiday-item .holiday-details {
   padding: 40px;
@@ -368,6 +377,27 @@ select {
   color: #ff5400;
 }
 /* Deals Discount End */
+
+/* Simple-Perfect Start */
+.simple-perfect-section .popular-tour-container {
+  grid-template-columns: 0.45fr 0.55fr;
+  max-height: 100%;
+}
+.simple-perfect-section .tour-image {
+  max-width: 100%;
+}
+#videobandarban {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+/* Simple-Perfect End */
+
 /* Testimonial Start */
 .testimonial-section .section-details {
   text-align: center;

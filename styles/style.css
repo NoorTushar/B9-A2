@@ -334,7 +334,7 @@ select {
 .holiday-item .holiday-details .holiday-icons .each-icon-box {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 .holiday-item .holiday-details .holiday-icons .each-icon-box i {
   font-size: 16px;
@@ -347,7 +347,7 @@ select {
   color: #ff5400;
   font-size: 20px;
   font-weight: 800;
-  margin: 14px 0;
+  margin: 20px 0;
 }
 .book-now-button {
   padding: 10px 20px;

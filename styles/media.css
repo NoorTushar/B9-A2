@@ -233,6 +233,66 @@
   }
   /* Why us End */
 
+  /* Deals Discount Start */
+  .deals-discounts-section {
+  }
+  .holiday-item {
+    align-items: flex-end;
+    padding: 20px;
+    justify-content: end;
+  }
+
+  .holiday-item .holiday-details {
+    padding: 20px;
+    width: 100%;
+  }
+  .holiday-item .holiday-details .holiday-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .holiday-item .holiday-details .holiday-icons .each-icon-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .each-icon-box-1 {
+    order: 1;
+  }
+  .holiday-item .holiday-details .holiday-icons .each-icon-box i {
+    font-size: 16px;
+    color: var(--orange);
+  }
+  .holiday-details .card-header {
+    margin-top: 20px;
+  }
+  .holiday-price {
+    color: #ff5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 14px 0;
+  }
+  .book-now-button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    border: 1px solid #ff5400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .book-now-button:hover {
+    background: #fff;
+    color: #ff5400;
+  }
+  /* Deals Discount End */
   /* Testimonials Start */
   .testimonial-section {
     margin-bottom: 60px;
